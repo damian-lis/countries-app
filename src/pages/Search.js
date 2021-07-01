@@ -26,7 +26,7 @@ function Search() {
         <Link to='/'> List of Countries</Link>
         <input
           type='text'
-          placeholder='Enter Country Code (ex. BR)...'
+          placeholder='Enter Country Code'
           onChange={(event) => {
             setCountrySearch(event.target.value);
           }}
