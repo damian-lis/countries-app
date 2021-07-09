@@ -3,6 +3,7 @@
     height: 100%;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
   }
   body {
     margin: 0;
@@ -29,7 +30,7 @@
   }
   
   .listOfCountries .country {
-    width: 400px;
+    max-width: 400px;
     height: 150px;
     background-color: cornflowerblue;
     color: white;
@@ -39,6 +40,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
+    padding:5px;
   }
   
   .country label {
@@ -67,3 +69,11 @@
     font-weight: bolder;
     cursor: pointer;
   }
+
+  @media(max-width:400px){
+    h2{
+      font-size: 20px;
+    }
+  }
+
+ 
