@@ -1,4 +1,4 @@
-# Countries App
+# My Countries App
 
 An application thanks to which we can search for a specific country using GraphQL technology.
 
@@ -8,7 +8,7 @@ An application thanks to which we can search for a specific country using GraphQ
 
 <br/>
 
-### Live version is available [here](https://graphql-countries-exercise.vercel.app/).
+### Live version is available [here](https://my-countries-app.vercel.app/).
 
 <br/>
 
